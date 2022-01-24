@@ -6,7 +6,7 @@
 int main(int argc, char *argv[]) {
 
     if(argc <=2) {
-        printf("None arguments are given\nRun example: ./portscan IP\n");
+        printf("None arguments are given\nRun example: ./DoS IP PORT\n");
     }else {
         int sock;
         int conn;
